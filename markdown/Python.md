@@ -1,6 +1,12 @@
 ###### Python
 
-Python基础
+Python是解释型语言、动态类型、面向对象（继承和组合）、类是一等公民
 
-itertools，collection
+1. 原始数据类型和运算符
+2. 变量和集合
+3. 流程控制与迭代器
+4. 函数
+5. 类
+6. 模块
+7. 高级用法 generator(惰性求值，使用yield生成)、装饰器 decorators
 
