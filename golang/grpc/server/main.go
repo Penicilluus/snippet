@@ -31,7 +31,6 @@ func (s *server) SayHelloAgain(ctx context.Context, in *pb.HelloRequest) (*pb.He
 	return &pb.HelloReply{Message: "Hello " + in.Name}, nil
 }
 
-
 func main() {
 	lis, err := net.Listen("tcp", port)
 	if err != nil {
